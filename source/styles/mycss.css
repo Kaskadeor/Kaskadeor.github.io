@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=BebasNeue&display=swap);
+
+body{
+    font-family:Bebas Neue,serif;
+    background: linear-gradient(164deg, #03035F 0%, #963131 100%);
+}
+p{
+    color: aquamarine;
+}
+.nav-link{
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active{
+    color: rgb(77, 81, 79);
+}
+.navbar-brand img{
+    width: 50px;
+
+}
+.navbar-toggler{
+    background-color: rgb(77, 81, 79);
+}
+
+
+.sidebar{
+    color: aquamarine;
+    background: linear-gradient(90deg, #03035F 0%, #963131 100%);
+
+}
+.card{
+    background: linear-gradient(60deg, #03035F 0%, #963131 100%);
+    color: aquamarine;
+}
+.card a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.slide-text,
+.footer-text{
+    color: aquamarine;
+    margin:auto auto;
+}
+  @media(max-width :755px){
+    .carousel-indicators{
+        display: none;
+    }
+  }
+  footer,
+  .btn-outline-primary{
+
+    background: linear-gradient(60deg, #03035F 0%, #963131 100%);
+
+  }
+  .media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .call-anim{
+    animation: Call 2s ease 0s infinite normal forwards;
+
+  }
+  @keyframes Call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
